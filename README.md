@@ -1,8 +1,6 @@
 # Modified Whatsapp-API
 <p align='center'>
-  <video width="300" autoplay loop muted>
-    <source src="https://files.catbox.moe/wjt4wo.mp4" type="video/mp4">
-  </video>
+  <img src="https://files.catbox.moe/xiu3do.gif" width="300">
 </p>
 
 --- 
