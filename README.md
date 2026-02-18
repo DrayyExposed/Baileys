@@ -1,146 +1,46 @@
-<h1 align="center">Hi 👋, I'm DrayyExposed</h1>
-<h3 align="center">A WhatsApp Web explorer. Diving deep into protocols, automation, and safe hacks. Powered by Baileys.</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:260000,100:b30000&height=150&text=Hi,%20I'm%20Satria%20Bahari&fontSize=50&fontColor=fbe400&fontAlignY=45&animation=twinkling&desc=A%20Web%20and%20Mobile%20%20Developer&descSize=30&descAlignY=85&section=header" />
+ 
+I'm Satria Bahari, a student majoring in Information Systems at the University of Jambi. I have a strong interest in frontend development. With a solid foundation in JavaScript and TypeScript, as well as a comprehensive understanding of various frontend libraries and frameworks, I have navigated the ever-evolving landscape of web development with enthusiasm and dedication. 
+ 
+I focus on creating web applications that not only provide precise experiences but are also user-friendly. My specialization includes JavaScript and TypeScript, along with frameworks such as React, Vite, and Next.js. As a quick learner and adaptive thinker, I thrive in a dynamic environment where innovation is a driving force. My collaborative nature allows me to seamlessly integrate with teams, contributing not only to my technical skills but also embodying a humble attitude that values input from every team member.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dryzxmods&label=Profile%20views&color=0e75b6&style=flat" alt="dryzxmods" /> </p>
+[![Mail Badge](https://img.shields.io/badge/-satriaabaharii@gmail.com-dc2626?style=flat&labelColor=dc2626&logo=gmail&logoColor=white)](mailto:satriaabaharii@gmail.com)
+[![Instagram Badge](https://img.shields.io/badge/-@satriabaharii__-c026d3?style=flat&labelColor=c026d3&logo=instagram&logoColor=white)](https://instagram.com/satriabaharii_) 
+[![Linkedin Badge](https://img.shields.io/badge/-satriabahari-0284c7?style=flat&labelColor=0284c7&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satria-bahari/) 
+[![Tiktok](https://img.shields.io/badge/-satriaabaharii-171717?style=flat&labelColor=171717&logo=tiktok&logoColor=white)](https://www.tiktok.com/@satriaabaharii/)
+[![](https://komarev.com/ghpvc/?username=satriabahari&color=blue&label=Profile%20Views)](https://github.com/satriabahari/satriabahari)
+[![](https://img.shields.io/github/followers/satriabahari?label=GitHub%20Followers)](https://github.com/satriabahari)
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dryzxmods" alt="dryzxmods" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+### Other Tech Stacks
 
-- 🔭 I’m currently working on [Baileys](https://github.com/DrayyExposed/Baileys/tree/master)
+![My Skills](https://skillicons.dev/icons?perline=9&i=html,css,js)
 
-- 🌱 I’m currently learning **- Node.js and Baileys - Web automation techniques - Ethical security research**
+### Tools
 
-- 💬 Ask me about **- Baileys & WhatsApp Web automation - Node.js development - Ethical hacking & security research - Bots & scripting**
+![My Skills](https://skillicons.dev/icons?i=github)
+<!--
 
-- 📫 How to reach me **dryzxmods@gmail.com**
+### Others
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+![My Skills](https://skillicons.dev/icons?i=npm,yarn,bun,netlify,vercel,stackoverflow)
+-->
 
-# Modified Whatsapp-API
-<p align='center'>
-  <img src="https://files.catbox.moe/rhm9rt.webp" width="172">
-</p>
+### Statistics
 
---- 
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=DrayyExposed&theme=maroongold&show_icons=true&)
 
-## Usage
-```json
-"depencies": {
-  "@whiskeysockets/baileys": "github:qwerty-xcv/Baileys"
-}
-```
-## Import
-```javascript
-const {
-  default:makeWASocket,
-  // Other Options 
-} = require('@whiskeysockets/baileys');
-```
+<!---
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=satriabahari&theme=maroongold&card_width=470)
 
----
-# How To Connect To Whatsapp
-## With QR Code
-```javascript
-const {
-  default: makeWASocket
-} = require('@whiskeysockets/baileys');
+[![GitHub Streak](https://streak-stats.demolab.com?user=satriabahari&theme=maroongold)](https://git.io/streak-stats)
 
-const client = makeWASocket({
-  browser: ['Ubuntu', 'Chrome', '20.00.1'],
-  printQRInTerminal: true
-})
-```
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=satriabahari&theme=maroongold" alt="GitHub Streak" /></a>
+--->
 
-## Connect With Number
-```javascript
-const {
-  default: makeWASocket,
-  fetchLatestWAWebVersion
-} = require('@whiskeysockets/baileys');
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=satriabahari&card_width=495&langs_count=7&layout=compact&theme=maroongold)
 
-const client = makeWASocket({
-  browser: ['Ubuntu', 'Chrome', '20.00.1'],
-  printQRInTerminal: false,
-  version: fetchLatestWAWebVersion()
-  // Other options
-});
+![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=@satriabahari&langs_count=7&layout=compact&theme=maroongold)
 
-const number = "628XXXXX";
-const code = await client.requestPairingCode(number.trim) /* Use : (number, "YYYYYYYY") for custom-pairing */
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:260000,100:b30000&height=100&section=footer" />
 
-console.log("Ur pairing code : " + code)
-```
-
-# Sending messages
-
-## send orderMessage
-```javascript
-const fs = require('fs');
-const ZeppImg = fs.readFileSync('./ZeppImage');
-
-await client.sendMessage(m.chat, {
-  thumbnail: ZeppImg,
-  message: "Gotta get a grip",
-  orderTitle: "7eppeli-Corporation",
-  totalAmount1000: 72502,
-  totalCurrencyCode: "IDR"
-}, { quoted:m })
-```
-
-## send pollResultSnapshotMessage
-```javascript
-await client.sendMessage(m.chat, {
-  pollResultMessage: {
-    name: "7eppeli-Corporation",
-    options: [
-      {
-        optionName: "poll 1"
-      },
-      {
-        optionName: "poll 2"
-      }
-    ],
-    newsletter: {
-      newsletterName: "7eppeli | Killer Queen Information",
-      newsletterJid: "1@newsletter"
-    }
-  }
-})
-```
-
-## send productMessage
-```javascript
-await client.relayMessage(m.chat, {
-  productMessage {
-    title: "7eppeli.pdf",
-    description: "zZZ...",
-    thumbnail: { url: "./ZeppImage" },
-    productId: "EXAMPLE_TOKEN",
-    retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/YuukeyD7eppeli",
-    body: "Nak Tido",
-    footer: "Footer",
-    buttons: [
-      {
-        name: "cta_url",
-        buttonParamsJson: "{\"display_text\":\"7eppeli-Pdf\",\"url\":\"https://t.me/YuukeyD7eppeli\"}"
-      }
-    ],
-    priceAmount1000: 72502,
-    currencyCode: "IDR"
-  }
-})
-```
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dryzxmods&show_icons=true&locale=en&layout=compact" alt="dryzxmods" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dryzxmods&show_icons=true&locale=en" alt="dryzxmods" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dryzxmods&" alt="dryzxmods" /></p>
-Follow https://t.me/TenkaWaBails kalau mau liat type message yg lain :v
