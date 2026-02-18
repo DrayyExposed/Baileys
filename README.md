@@ -1,7 +1,10 @@
 # Modified Whatsapp-API
-<p align='center'>
-  <img src="https://files.catbox.moe/xiu3do.gif" width="300">
+<p align="center">
+  <img src="https://files.catbox.moe/20t9xi.jpg" width="480">
 </p>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 
 --- 
 
