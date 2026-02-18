@@ -1,6 +1,6 @@
 # Modified Whatsapp-API
 <p align="center">
-  <img src="https://files.catbox.moe/20t9xi.jpg" width="480">
+  <img src="https://files.catbox.moe/20t9xi.jpg" style="width:100%;">
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
