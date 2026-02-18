@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:260000,100:b30000&height=150&text=Hi,%20I'm%20DryzxMods&fontSize=50&fontColor=fbe400&fontAlignY=45&animation=twinkling&desc=A%20Web%20and%20Mobile%20%20Developer&descSize=30&descAlignY=85&section=header" />
- 
 # Modified Whatsapp-API
 <p align='center'>
-  <img src="https://files.catbox.moe/rhm9rt.webp" width="172">
+  <video width="300" autoplay loop muted>
+    <source src="https://files.catbox.moe/wjt4wo.mp4" type="video/mp4">
+  </video>
 </p>
 
 --- 
@@ -10,7 +10,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:qwerty-xcv/Baileys"
+  "@whiskeysockets/baileys": "github:DrayyExposed/Baileys"
 }
 ```
 ## Import
